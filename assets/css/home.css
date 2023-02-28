@@ -1,0 +1,83 @@
+p,h1{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background: #000;
+    /* background-image: url('/images/bg2.jpg');
+    background-size: cover; */
+}
+
+.container{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    /* background-color: brown; */
+    height: 80vh;
+    justify-content: space-evenly;
+}
+.main{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    justify-content: space-evenly;
+    height: 10vh;
+    align-items: center;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.side{
+    border: 2px solid red;
+    width: 17%;
+}
+.user-c{
+    border: 2px solid wheat;
+    display: flex;
+    padding: 0;
+    /* margin: 0%; */
+    border-radius: 14px;
+}
+.data{
+    /* background-color: aquamarine; */
+    width: 100%;
+    text-align: center;
+}
+.data h1{
+    color: white;
+    padding: 1%;
+}
+.user-info{
+    border: 1px solid #e35858;
+    color: white;
+    padding: 1%;
+    /* border: 2px solid wheat; */
+    
+}
+
+.cp-div{
+    background-color: antiquewhite;
+    padding: 0.5%;
+    width: 12%;
+    text-align: center;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.cp-div a{
+    text-decoration: none;
+    color: #1D0C5A;
+    font-size: 1.5rem;
+}
